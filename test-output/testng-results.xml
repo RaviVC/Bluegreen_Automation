@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7148" started-at="2019-09-25T03:10:07Z" finished-at="2019-09-25T03:10:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7148" started-at="2019-09-25T03:10:07Z" finished-at="2019-09-25T03:10:14Z">
+      <class name="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@36c88a32]" name="beforeSuite" is-config="true" duration-ms="1909" started-at="2019-09-25T08:40:05Z" finished-at="2019-09-25T08:40:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@36c88a32]" name="beforeTest" is-config="true" duration-ms="15" started-at="2019-09-25T08:40:07Z" finished-at="2019-09-25T08:40:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@36c88a32]" name="beforeClass" is-config="true" duration-ms="94" started-at="2019-09-25T08:40:07Z" finished-at="2019-09-25T08:40:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Launch()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@36c88a32]" name="Launch" duration-ms="6726" started-at="2019-09-25T08:40:07Z" finished-at="2019-09-25T08:40:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@36c88a32]" name="afterMethod" is-config="true" duration-ms="2" started-at="2019-09-25T08:40:14Z" finished-at="2019-09-25T08:40:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Launch status=SUCCESS method=CreateBGGetawayPackage.Launch()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@36c88a32] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@36c88a32]" name="afterClass" is-config="true" duration-ms="298" started-at="2019-09-25T08:40:14Z" finished-at="2019-09-25T08:40:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

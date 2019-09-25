@@ -22,6 +22,7 @@ public class CreateBGGetawayPackage extends BaseTest {
 		test.log(Status.INFO,"Test Case Execution Started");
 		try {
 			launchApp(CONFIG.getProperty("BGG_URL"), "stg");
+			System.out.println("BGG App Launched");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

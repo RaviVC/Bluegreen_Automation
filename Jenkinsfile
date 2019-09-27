@@ -25,10 +25,10 @@ pipeline {
                }
            }		
         }
-        stage('package') {
+        stage('test') {
 	   steps {
-                echo 'metric-check..'
-		bat label: '', script: 'mvn package'	
+                echo 'Execute - Scripts..'
+		bat label: '', script: 'mvn test'	
            }		
         }
     }

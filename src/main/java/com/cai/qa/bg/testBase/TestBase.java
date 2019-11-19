@@ -33,7 +33,7 @@ import org.testng.annotations.BeforeTest;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-import com.cai.qa.bg.PageObjects.BGG.HomePage;
+import com.cai.qa.bg.ObjectRepository.BGG.BGG_PageObjects;
 import com.cai.qa.bg.browser.BrowserType;
 import com.cai.qa.bg.browser.ChromeBrowser;
 import com.cai.qa.bg.config.ObjectReader;
@@ -53,7 +53,7 @@ public class TestBase  {
 	private Logger log = LoggerHelp.getLogger(TestBase.class);
 	public static File reportDirectory;
 	public static Properties CONFIG = null;
-	public static HomePage homepage;
+	public static BGG_PageObjects homepage;
 	public static ExtentHelper exthelper;
 
 	

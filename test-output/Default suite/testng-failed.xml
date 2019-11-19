@@ -5,8 +5,16 @@
     <classes>
       <class name="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage">
         <methods>
-          <include name="afterMethod"/>
+          <include name="SelectDestination"/>
+          <include name="afterClass"/>
+          <include name="CheckAvailability"/>
+          <include name="EnterPersonalInformationnBookPackage" invocation-numbers="0"/>
+          <include name="beforeClass"/>
           <include name="Launch"/>
+          <include name="ConfirmAvailability"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
         </methods>
       </class> <!-- com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage -->
     </classes>

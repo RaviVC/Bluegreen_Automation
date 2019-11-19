@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-09-25T03:10:49Z" name="Suite" finished-at="2019-09-25T03:10:54Z" duration-ms="5796">
+  <suite started-at="2019-10-31T10:26:12Z" name="Suite" finished-at="2019-10-31T10:26:17Z" duration-ms="5451">
     <groups>
     </groups>
-    <test started-at="2019-09-25T03:10:49Z" name="BGG_Stage" finished-at="2019-09-25T03:10:54Z" duration-ms="5796">
+    <test started-at="2019-10-31T10:26:12Z" name="BGG_Stage" finished-at="2019-10-31T10:26:17Z" duration-ms="5451">
       <class name="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@69504ae9]" started-at="2019-09-25T08:40:46Z" name="beforeSuite" finished-at="2019-09-25T08:40:49Z" duration-ms="2323" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@69504ae9]" started-at="2019-10-31T15:56:10Z" name="beforeSuite" finished-at="2019-10-31T15:56:12Z" duration-ms="1415" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@69504ae9]" started-at="2019-09-25T08:40:49Z" name="beforeTest" finished-at="2019-09-25T08:40:49Z" duration-ms="68" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@69504ae9]" started-at="2019-10-31T15:56:12Z" name="beforeTest" finished-at="2019-10-31T15:56:12Z" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@69504ae9]" started-at="2019-09-25T08:40:49Z" name="beforeClass" finished-at="2019-09-25T08:40:49Z" duration-ms="172" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@69504ae9]" started-at="2019-10-31T15:56:12Z" name="beforeClass" finished-at="2019-10-31T15:56:12Z" duration-ms="73" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="Launch()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@69504ae9]" started-at="2019-09-25T08:40:49Z" name="Launch" finished-at="2019-09-25T08:40:54Z" duration-ms="5111" status="PASS">
+        <test-method signature="Launch()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@69504ae9]" started-at="2019-10-31T15:56:12Z" name="Launch" finished-at="2019-10-31T15:56:17Z" duration-ms="5107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Launch -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@69504ae9]" started-at="2019-09-25T08:40:54Z" name="afterMethod" finished-at="2019-09-25T08:40:54Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@69504ae9]" started-at="2019-10-31T15:56:17Z" name="afterMethod" finished-at="2019-10-31T15:56:17Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,7 +34,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@69504ae9]" started-at="2019-09-25T08:40:54Z" name="afterClass" finished-at="2019-09-25T08:40:54Z" duration-ms="419" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@69504ae9]" started-at="2019-10-31T15:56:17Z" name="afterClass" finished-at="2019-10-31T15:56:17Z" duration-ms="248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

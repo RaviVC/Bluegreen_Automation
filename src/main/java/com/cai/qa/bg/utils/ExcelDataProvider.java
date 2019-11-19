@@ -15,7 +15,8 @@ public class ExcelDataProvider {
 	
 	@DataProvider(name="test1Data")
 	public Object[][] getData(){
-		Object[][] data = testData(ResourceHelper.getResourcePath("\\TestData.xlsx"), "Login");
+		String excelPath = "E:\\Workspace\\AutomationFramework\\TestData.xlsx";
+		Object[][] data = testData(excelPath, "CreateBGG_Pacakge");
 		return data;
 	}
 	
@@ -23,6 +24,7 @@ public class ExcelDataProvider {
 		ExcelUtils excel = new ExcelUtils(excelPath, sheetName);
 		int rowCount = excel.getRowCount();
 		int colCount = excel.getColumnCount();
+		System.out.println(rowCount);
 		
 		Object data[][] = new Object[rowCount-1][colCount];
 		

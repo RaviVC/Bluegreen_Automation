@@ -31,7 +31,7 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-import com.cai.qa.bg.PageObjects.BGG.HomePage;
+import com.cai.qa.bg.ObjectRepository.BGG.BGG_PageObjects;
 import com.cai.qa.bg.extentReports.ExtentHelper;
 import com.cai.qa.bg.log4j.LoggerHelp;
 
@@ -41,7 +41,7 @@ public class BaseTest extends TestBase {
 	private Logger log = LoggerHelp.getLogger(BaseTest.class);
 	public static File reportDirectory;
 	public static Properties CONFIG = null;
-	public static HomePage homepage;
+	public static BGG_PageObjects bggPage;
 	public static ExtentHelper exthelper;
 	public static ExtentHtmlReporter htmlReporter;
 	public static ExtentReports extent;
@@ -73,8 +73,8 @@ public class BaseTest extends TestBase {
 
 	@BeforeTest
 	public void beforeTest() {
-		homepage = new HomePage();
-		homepage = PageFactory.initElements(driver, HomePage.class);
+		bggPage = new BGG_PageObjects();
+		bggPage = PageFactory.initElements(driver, BGG_PageObjects.class);
 	}
 
 	@AfterMethod
@@ -168,5 +168,14 @@ public class BaseTest extends TestBase {
 			e.printStackTrace();
 		}
 	}
+	
+	public void threadsleepdelay(long millisecs){
+    	try {
+			Thread.sleep(millisecs);
+		} catch (InterruptedException e) {
+			
+			e.printStackTrace();
+		}
+    }
 
 }

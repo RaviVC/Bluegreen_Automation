@@ -9,14 +9,14 @@ public class BGG_PageObjects {
 	@FindBy(how=How.XPATH,using="//a[@title='Destinations']")
 	public WebElement destinations;
 	
-	@FindBy(how=How.XPATH,using="//div[@class='columns seventeen menu']/ul/li[1]/ul/li[5]/a")
-	public WebElement MyrtleBeach;
+	@FindBy(how=How.XPATH,using="//div[@class='columns seventeen menu']/ul/li[1]/ul/li[2]/a")
+	public WebElement Charleston;
 	
 	//@FindBy(how=How.XPATH,using="//div[@class='row content']//a[text()='Myrtle Beach, SC']")
 	@FindBy(how=How.XPATH,using="//*[@id='ctl00_PlaceHolderMain_DestinationExplorer_LstVwDestinationExplorer_ctrl1_ctl00_imgDestination']")
 	public WebElement MyrtleBeachLink;
 	
-	@FindBy(how=How.XPATH,using="//div[@id='divProd_hl']//a[text()='Explore']")
+	@FindBy(how=How.XPATH,using="//div[@id='divProd_char_htl']//a[text()='Explore']")
 	public WebElement explore;
 	
 	@FindBy(how=How.XPATH,using="//div[@class='hide-mobile offer-form']//a[text()='VIEW AVAILABILITY']")
@@ -89,7 +89,7 @@ public class BGG_PageObjects {
 	
 	//Validations
 	
-	@FindBy(how=How.XPATH,using="//h1[text()='Bluegreen Destinations - Myrtle Beach, SC']")
+	@FindBy(how=How.XPATH,using="//h1[text()='Bluegreen Destinations - Charleston, SC']")
 	public WebElement destinationSearchResults;
 	
 	@FindBy(how=How.XPATH,using="//div[@class='message-success']")

@@ -24,6 +24,7 @@ public class ExcelDataProvider {
 		ExcelUtils excel = new ExcelUtils(excelPath, sheetName);
 		int rowCount = excel.getRowCount();
 		int colCount = excel.getColumnCount();
+		
 		System.out.println(rowCount);
 		
 		Object data[][] = new Object[rowCount-1][colCount];

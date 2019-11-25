@@ -80,7 +80,7 @@ public class BaseTest extends TestBase {
 	@AfterMethod
 	public void afterMethod(ITestResult result) {
 		if (result.getStatus() == ITestResult.SUCCESS) {
-			test.log(Status.PASS, result.getName() + "  is PASS");
+			test.log(Status.PASS, result.getName() + "  is Executed and result is PASS");
 		} else if (result.getStatus() == ITestResult.FAILURE) {
 			test.log(Status.PASS, result.getName() + " is FAILED " + result.getThrowable());
 		} else if (result.getStatus() == ITestResult.SKIP) {
@@ -128,6 +128,9 @@ public class BaseTest extends TestBase {
 			targeturl = url.replace("bluegreengetaways", "stg.bluegreengetaways");
 		} else if (Env.equalsIgnoreCase("qa")) {
 			targeturl = url.replace("bluegreengetaways.", "qa.bluegreengetaways");
+		}
+		if (Env.equalsIgnoreCase("dev")) {
+			targeturl = url.replace("bluegreengetaways", "dev.bluegreengetaways");
 		}
 
 		driver.get(targeturl);

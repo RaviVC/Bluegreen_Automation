@@ -22,7 +22,7 @@ public class CreateBGGetawayPackage extends BaseTest {
 	private Logger log = LoggerHelp.getLogger(CreateBGGetawayPackage.class);
 	
 	
-	@Test
+	@Test(priority=0)
 	public void Launch(){
 		//*************** TEST EXECUTION ***************
 		test = extent.createTest("Launch BGG");
@@ -37,26 +37,26 @@ public class CreateBGGetawayPackage extends BaseTest {
 		
 	}
 	
-	@Test
+	@Test(priority=1)
 	public void SelectDestination(){
 		//*************** TEST EXECUTION ***************
 		test = extent.createTest("SelectDestination");
-		test.log(Status.INFO,"Destination selected");
+		test.log(Status.INFO,"Charleston Destination is selected");
 		
 		actions = new Actions(driver);
 		actions.moveToElement(bggPage.destinations).perform();
 		threadsleepdelay(3000);
-		bggPage.MyrtleBeach.click();
+		bggPage.Charleston.click();
 		threadsleepdelay(3000);
 		
 		//************ VERIFICATION ****************
 		Assert.assertEquals(bggPage.destinationSearchResults.isDisplayed(), true);
 	}
 	
-	@Test
+	@Test(priority=2)
 	public void CheckAvailability(){
 		//*************** TEST EXECUTION ***************
-		test = extent.createTest("checkAvailability");
+		test = extent.createTest("CheckAvailability");
 		test.log(Status.INFO,"Check the availabilty of Destination selected");
 		
 		bggPage.explore.click();
@@ -68,7 +68,7 @@ public class CreateBGGetawayPackage extends BaseTest {
 		Assert.assertEquals(bggPage.AvailabilitySuccessMessage.isDisplayed(), true);
 	}
 	
-	@Test
+	@Test(priority=3)
 	public void ConfirmAvailability(){
 		
 		test = extent.createTest("confirmAvailability");
@@ -83,7 +83,7 @@ public class CreateBGGetawayPackage extends BaseTest {
 		Assert.assertEquals(PersonalInformationtitle, "Personal Information");
 	}
 	
-	@Test(dataProvider="test1Data")
+	@Test(dataProvider="test1Data",priority=4)
 	public void EnterPersonalInformationnBookPackage(String FirstName,String LastName,String Email,String Phone,String StreetAddress,
 			String ApartmentNo,String City,String Zipcode,String CardNumber,String CVV){
 		

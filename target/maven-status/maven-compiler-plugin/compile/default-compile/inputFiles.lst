@@ -3,6 +3,7 @@ E:\Workspace\AutomationFramework\src\main\java\com\cai\qa\bg\browser\BrowserType
 E:\Workspace\AutomationFramework\src\main\java\com\cai\qa\bg\log4j\LoggerHelp.java
 E:\Workspace\AutomationFramework\src\main\java\com\cai\qa\bg\listeners\RetryListenerHelper.java
 E:\Workspace\AutomationFramework\src\main\java\com\cai\qa\bg\resources\ResourceHelper.java
+E:\Workspace\AutomationFramework\src\main\java\com\cai\qa\bg\ObjectRepository\BGG\BGG_PageObjects.java
 E:\Workspace\AutomationFramework\src\main\java\com\cai\qa\bg\seleniumAPI\AlertHelper.java
 E:\Workspace\AutomationFramework\src\main\java\com\cai\qa\bg\verification\VerificationHelper.java
 E:\Workspace\AutomationFramework\src\main\java\com\cai\qa\bg\config\PropertyReader.java
@@ -23,7 +24,6 @@ E:\Workspace\AutomationFramework\src\main\java\com\cai\qa\bg\dataBase\DataBaseHe
 E:\Workspace\AutomationFramework\src\main\java\com\cai\qa\bg\listeners\Retry.java
 E:\Workspace\AutomationFramework\src\main\java\com\cai\qa\bg\extentReports\ExtentHelper.java
 E:\Workspace\AutomationFramework\src\main\java\com\cai\qa\bg\listeners\RetryAnalyzer.java
-E:\Workspace\AutomationFramework\src\main\java\com\cai\qa\bg\PageObjects\BGG\HomePage.java
 E:\Workspace\AutomationFramework\src\main\java\com\cai\qa\bg\wait\WaitHelper.java
 E:\Workspace\AutomationFramework\src\main\java\com\cai\qa\bg\config\ObjectReader.java
 E:\Workspace\AutomationFramework\src\main\java\com\cai\qa\bg\testBase\TestBase.java

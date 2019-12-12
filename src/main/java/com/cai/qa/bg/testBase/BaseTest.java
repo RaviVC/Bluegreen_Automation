@@ -9,21 +9,26 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Properties;
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -46,7 +51,14 @@ public class BaseTest extends TestBase {
 	public static ExtentHtmlReporter htmlReporter;
 	public static ExtentReports extent;
 	public static ExtentTest test;
+	private JavascriptExecutor jse = null;
 
+	/*@Parameters({ "BrowserName" })
+	@BeforeSuite
+	public void beforeSuite(String BrowserName) {
+		configure(BrowserName);
+	}*/
+	
 	@BeforeSuite
 	public void beforeSuite() {
 		configure("chrome");
@@ -92,6 +104,11 @@ public class BaseTest extends TestBase {
 	public void afterClass() {
 		extent.flush();
 	}
+	
+	@AfterTest
+	public void afterTest(){
+		driver.quit();
+	}
 
 	public String configure(String browser) {
 
@@ -111,12 +128,12 @@ public class BaseTest extends TestBase {
 		if (browser.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
-		} else if (browser.equalsIgnoreCase("ff")) {
+		} else if (browser.equalsIgnoreCase("FF")) {
 			System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
-		} else if (browser.equalsIgnoreCase("ie")) {
-			System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
-			driver = new ChromeDriver();
+		} else if (browser.equalsIgnoreCase("IE")) {
+			System.setProperty("webdriver.ie.driver", "drivers\\IEDriverServer.exe");
+			driver = new InternetExplorerDriver();
 		}
 
 		return targetBrowser;
@@ -162,6 +179,25 @@ public class BaseTest extends TestBase {
 		}
 		return destFile.toString();
 	}
+	
+	public static String generateRandomNumber(){
+		 long currentTime = System.currentTimeMillis();
+
+         Random r = new Random(currentTime);
+         int Low = 10000000;
+         int High = 900000000;
+         int R = r.nextInt(High - Low) + Low;
+         return Integer.toString(R + 12)+"3";
+		
+	}
+	
+	public void scroll_Vertical(int scrollValue){
+		try {
+			jse.executeScript("scroll(0," + scrollValue + ")");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
 
 	public static void threadSleepWait(long millisecs) {
 		try {
@@ -180,5 +216,9 @@ public class BaseTest extends TestBase {
 			e.printStackTrace();
 		}
     }
+	
+	public static void main(String[] args) {
+		generateRandomNumber();
+	}
 
 }

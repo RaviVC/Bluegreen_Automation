@@ -3,16 +3,17 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage">
+      <class name="com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated">
         <methods>
-          <include name="SelectDestination"/>
           <include name="afterClass"/>
           <include name="beforeClass"/>
+          <include name="VerifyAccordianTabs"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
           <include name="beforeSuite"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage -->
+      </class> <!-- com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

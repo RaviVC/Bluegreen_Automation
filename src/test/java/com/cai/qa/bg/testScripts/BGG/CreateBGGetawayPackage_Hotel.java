@@ -3,7 +3,9 @@ package com.cai.qa.bg.testScripts.BGG;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentTest;
@@ -14,13 +16,22 @@ import com.cai.qa.bg.testBase.BaseTest;
 import com.cai.qa.bg.testBase.TestBase;
 import com.cai.qa.bg.utils.ExcelDataProvider;
 
-public class CreateBGGetawayPackage extends BaseTest { 
+public class CreateBGGetawayPackage_Hotel extends BaseTest { 
 	
 	ExcelDataProvider excel = new ExcelDataProvider();
 	public static Actions actions;
 	
-	private Logger log = LoggerHelp.getLogger(CreateBGGetawayPackage.class);
+	private Logger log = LoggerHelp.getLogger(CreateBGGetawayPackage_Hotel.class);
 	
+	
+	/*@BeforeSuite
+	@Parameters({"BrowserName"})
+	public void beforeSuite(String BrowserName) {
+		System.out.println(BrowserName);
+		configure(BrowserName);
+		System.out.println("Before configure");
+		
+	}*/
 	
 	@Test(priority=0)
 	public void Launch(){
@@ -95,7 +106,7 @@ public class CreateBGGetawayPackage extends BaseTest {
 		bggPage.LastName.sendKeys(LastName);
 		bggPage.Email.sendKeys(Email);
 		bggPage.ConfirmEmail.sendKeys(Email);
-		bggPage.Phone.sendKeys(Phone);
+		bggPage.Phone.sendKeys(generateRandomNumber());
 		bggPage.Address.sendKeys(StreetAddress);
 		bggPage.City.sendKeys(City);
 		bggPage.State.click();

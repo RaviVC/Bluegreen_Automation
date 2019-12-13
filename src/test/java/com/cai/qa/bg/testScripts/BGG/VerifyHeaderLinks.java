@@ -33,7 +33,10 @@ public class VerifyHeaderLinks extends BaseTest {
 	}
 	
 	@Test(priority=1)
-	public void HeaderLinks(){
+	public void Verify_HeaderLinks(){
+		test = extent.createTest("Verify_HeaderLinks");
+		test.log(Status.INFO,"Header Links are verified");
+		
 		actions = new Actions(driver);
 		
 		actions.moveToElement(bggPage.destinations).perform();
@@ -50,7 +53,5 @@ public class VerifyHeaderLinks extends BaseTest {
 		Assert.assertEquals(bggPage.searchField.isDisplayed(), true);
 		
 		Assert.assertEquals(bggPage.searchButton.isDisplayed(), true);
-		
 	}
-
 }

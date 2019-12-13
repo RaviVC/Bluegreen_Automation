@@ -26,8 +26,14 @@ public class VerifySearchFunctionality extends BaseTest {
 	
 	@Test(priority=1)
 	public void verifySearch(){
+		//*************** TEST EXECUTION ***************
+		test = extent.createTest("VerifySearchFunctionality");
+		test.log(Status.INFO,"Destination Searched");
+		
 		bggPage.searchField.sendKeys("Orlando");
 		bggPage.searchButton.click();
+		
+		Assert.assertEquals(bggPage.SearchResults_Orlando.isDisplayed(), true);
 	}
 
 }

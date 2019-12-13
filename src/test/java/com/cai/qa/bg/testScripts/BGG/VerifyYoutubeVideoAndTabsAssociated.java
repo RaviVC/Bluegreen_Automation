@@ -59,7 +59,6 @@ public class VerifyYoutubeVideoAndTabsAssociated extends BaseTest {
 		threadsleepdelay(3000);
 		
 		Assert.assertEquals(bggPage.accordionTabs.isDisplayed(), true);
-		
 	}
 	
 	@Test(priority=3)

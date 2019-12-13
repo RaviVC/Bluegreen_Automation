@@ -177,15 +177,6 @@ public class BGG_PageObjects {
 	public WebElement accordionTabs;
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	//Validations
 	
 	@FindBy(how=How.XPATH,using="//h1[text()='Bluegreen Destinations - Charleston, SC']")
@@ -200,14 +191,7 @@ public class BGG_PageObjects {
 	@FindBy(how=How.XPATH,using="")
 	public WebElement PackageCreatedConfirmation;
 	
+	@FindBy(how=How.XPATH,using="//h1[@class='page-header']//u[text()='Orlando']")
+	public WebElement SearchResults_Orlando;
 	
-	
-	
-	
-	
-	
-	
-	
-	
-
 }

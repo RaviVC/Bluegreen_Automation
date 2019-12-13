@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.cai.qa.bg.testScripts.BGG.VerifyHeaderLinks"/>
+      <class name="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort"/>
+      <class name="com.cai.qa.bg.testScripts.BGG.VerifyFooterLinks"/>
+      <class name="com.cai.qa.bg.testScripts.BGG.VerifySearchFunctionality"/>
+      <class name="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel"/>
+      <class name="com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

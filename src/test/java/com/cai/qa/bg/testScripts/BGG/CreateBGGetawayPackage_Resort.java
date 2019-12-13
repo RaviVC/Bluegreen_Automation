@@ -71,7 +71,7 @@ public class CreateBGGetawayPackage_Resort extends BaseTest {
 	@Test(priority=3)
 	public void ConfirmAvailability(){
 		
-		test = extent.createTest("confirmAvailability");
+		test = extent.createTest("ConfirmAvailability");
 		test.log(Status.INFO,"Confirm the availabilty of Destination selected");
 		
 		bggPage.continuebutton.click();
@@ -88,7 +88,7 @@ public class CreateBGGetawayPackage_Resort extends BaseTest {
 			String ApartmentNo,String City,String Zipcode,String CardNumber,String CVV){
 		
 		//*************** TEST EXECUTION ***************
-		test = extent.createTest("enterPersonalInformation");
+		test = extent.createTest("EnterPersonalInformation");
 		test.log(Status.INFO,"Personal information entered and booked package");
 		
 		bggPage.FirstName.sendKeys(FirstName);

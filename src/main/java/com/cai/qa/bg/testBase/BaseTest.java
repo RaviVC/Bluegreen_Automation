@@ -105,10 +105,10 @@ public class BaseTest extends TestBase {
 		extent.flush();
 	}
 	
-	@AfterTest
+	/*@AfterTest
 	public void afterTest(){
 		driver.quit();
-	}
+	}*/
 
 	public String configure(String browser) {
 

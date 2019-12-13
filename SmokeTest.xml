@@ -3,15 +3,48 @@
 <suite name="Suite">
 
   <!-- <parameter name="BrowserName"  value="chrome"/> -->
-  <test name="BGG_Stage">
-   
+
+ <test name="CreateBGGetawayPackage_Hotel">
     <classes>
       <class name="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel"/>
+    </classes>
+  </test> 
+  
+  <test name="CreateBGGetawayPackage_Resort">
+    <classes>
       <class name="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort"/>
-      <class name="com.cai.qa.bg.testScripts.BGG.VerifyFooterLinks"/>
+    </classes>
+  </test> 
+  
+  <test name="VerifyHeaderLinks">
+    <classes>
       <class name="com.cai.qa.bg.testScripts.BGG.VerifyHeaderLinks"/>
+    </classes>
+  </test> 
+  
+  <test name="VerifyFooterLinks">
+    <classes>
+      <class name="com.cai.qa.bg.testScripts.BGG.VerifyFooterLinks"/>
+    </classes>
+  </test> 
+  
+  <test name="VerifySearchFunctionality">
+    <classes>
       <class name="com.cai.qa.bg.testScripts.BGG.VerifySearchFunctionality"/>
+    </classes>
+  </test> 
+  
+  <test name="VerifyYoutubeVideoAndTabsAssociated">
+    <classes>
       <class name="com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test> 
+  
+</suite> 
+	
+
+<!-- <class name="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort"/>
+<class name="com.cai.qa.bg.testScripts.BGG.VerifyFooterLinks"/>
+<class name="com.cai.qa.bg.testScripts.BGG.VerifyHeaderLinks"/>
+<class name="com.cai.qa.bg.testScripts.BGG.VerifySearchFunctionality"/>
+<class name="com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated"/> -->

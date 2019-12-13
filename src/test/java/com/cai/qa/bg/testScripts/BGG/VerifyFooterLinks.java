@@ -27,6 +27,9 @@ public class VerifyFooterLinks extends BaseTest{
 	@Test(priority=1)
 	public void verifyFooterLinks(){
 		//*************** TEST EXECUTION ***************
+		test = extent.createTest("VerifyFooterLinks");
+		test.log(Status.INFO,"Footer links Verified");
+		
 		threadsleepdelay(1000);
 		bggPage.Gotit.click();
 		threadsleepdelay(2000);

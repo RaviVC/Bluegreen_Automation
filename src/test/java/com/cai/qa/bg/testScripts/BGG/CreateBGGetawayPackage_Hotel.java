@@ -121,7 +121,7 @@ public class CreateBGGetawayPackage_Hotel extends BaseTest {
 		bggPage.purchasenow.click();
 		
 		String confirmationPagetitle = driver.getTitle();
-		System.out.println(confirmationPagetitle);
+		System.out.println(confirmationPagetitle1);
 		
 		//*************** VERIFICATION ***************
 		Assert.assertEquals(confirmationPagetitle, "Confirmation");

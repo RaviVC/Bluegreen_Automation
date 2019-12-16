@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="62.936" tests="5" errors="0" skipped="0" failures="1">
+<testsuite name="TestSuite" time="280.859" tests="20" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="13+33"/>
@@ -59,46 +59,24 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Launch" classname="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage" time="5.671"/>
-  <testcase name="SelectDestination" classname="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage" time="7.493"/>
-  <testcase name="CheckAvailability" classname="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage" time="8.255"/>
-  <testcase name="ConfirmAvailability" classname="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage" time="4.587"/>
-  <testcase name="EnterPersonalInformationnBookPackage" classname="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage" time="36.93">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[label[text()=&apos;*Card Number:&apos;]]/input&quot;}&#10;  (Session info: chrome=78.0.3904.108)&#10;  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;C4HSZY2&apos;, ip: &apos;10.8.6.63&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\chandrra\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55122}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}&#10;Session ID: f239a57b136976457fa5339b72946987&#10;*** Element info: {Using=xpath, value=//div[label[text()=&apos;*Card Number:&apos;]]/input}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[label[text()='*Card Number:']]/input"}
-  (Session info: chrome=78.0.3904.108)
-  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'C4HSZY2', ip: '10.8.6.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\chandrra\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55122}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}
-Session ID: f239a57b136976457fa5339b72946987
-*** Element info: {Using=xpath, value=//div[label[text()='*Card Number:']]/input}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)
-	at com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage.EnterPersonalInformationnBookPackage(CreateBGGetawayPackage.java:107)
-</failure>
-    <system-out>2
-
-</system-out>
-  </testcase>
+  <testcase name="Launch" classname="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel" time="6.308"/>
+  <testcase name="SelectDestination" classname="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel" time="12.604"/>
+  <testcase name="CheckAvailability" classname="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel" time="19.045"/>
+  <testcase name="ConfirmAvailability" classname="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel" time="7.786"/>
+  <testcase name="EnterPersonalInformationnBookPackage" classname="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel" time="34.603"/>
+  <testcase name="Launch" classname="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort" time="2.138"/>
+  <testcase name="SelectDestination" classname="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort" time="7.885"/>
+  <testcase name="CheckAvailability" classname="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort" time="18.761"/>
+  <testcase name="ConfirmAvailability" classname="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort" time="4.708"/>
+  <testcase name="EnterPersonalInformationnBookPackage" classname="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort" time="39.915"/>
+  <testcase name="Launch" classname="com.cai.qa.bg.testScripts.BGG.VerifyHeaderLinks" time="2.236"/>
+  <testcase name="Verify_HeaderLinks" classname="com.cai.qa.bg.testScripts.BGG.VerifyHeaderLinks" time="6.177"/>
+  <testcase name="Launch" classname="com.cai.qa.bg.testScripts.BGG.VerifyFooterLinks" time="1.469"/>
+  <testcase name="verifyFooterLinks" classname="com.cai.qa.bg.testScripts.BGG.VerifyFooterLinks" time="46.444"/>
+  <testcase name="Launch" classname="com.cai.qa.bg.testScripts.BGG.VerifySearchFunctionality" time="2.081"/>
+  <testcase name="verifySearch" classname="com.cai.qa.bg.testScripts.BGG.VerifySearchFunctionality" time="14.414"/>
+  <testcase name="Launch" classname="com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated" time="3.982"/>
+  <testcase name="SelectDestination" classname="com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated" time="18.055"/>
+  <testcase name="CheckAvailability" classname="com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated" time="10.051"/>
+  <testcase name="VerifyAccordianTabs" classname="com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated" time="22.197"/>
 </testsuite>

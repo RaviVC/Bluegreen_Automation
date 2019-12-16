@@ -1,85 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-11-28T13:39:53Z" name="Suite" finished-at="2019-11-28T13:40:56Z" duration-ms="63560">
+  <suite started-at="2019-12-13T13:00:55Z" name="Suite" finished-at="2019-12-13T13:05:37Z" duration-ms="281839">
     <groups>
     </groups>
-    <test started-at="2019-11-28T13:39:53Z" name="BGG_Stage" finished-at="2019-11-28T13:40:56Z" duration-ms="63560">
-      <class name="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@71687585]" started-at="2019-11-28T19:09:51Z" name="beforeSuite" finished-at="2019-11-28T19:09:53Z" duration-ms="1364" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@71687585]" started-at="2019-11-28T19:09:53Z" name="beforeTest" finished-at="2019-11-28T19:09:53Z" duration-ms="14" status="PASS">
+    <test started-at="2019-12-13T13:00:55Z" name="CreateBGGetawayPackage_Hotel" finished-at="2019-12-13T13:02:16Z" duration-ms="81074">
+      <class name="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel@7fb4f2a9]" started-at="2019-12-13T18:30:55Z" name="beforeTest" finished-at="2019-12-13T18:30:55Z" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@71687585]" started-at="2019-11-28T19:09:53Z" name="beforeClass" finished-at="2019-11-28T19:09:53Z" duration-ms="61" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel@7fb4f2a9]" started-at="2019-12-13T18:30:55Z" name="beforeClass" finished-at="2019-12-13T18:30:55Z" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="Launch()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@71687585]" started-at="2019-11-28T19:09:53Z" name="Launch" finished-at="2019-11-28T19:09:58Z" duration-ms="5670" status="PASS">
+        <test-method signature="Launch()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel@7fb4f2a9]" started-at="2019-12-13T18:30:55Z" name="Launch" finished-at="2019-12-13T18:31:02Z" duration-ms="6308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Launch -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@71687585]" started-at="2019-11-28T19:09:58Z" name="afterMethod" finished-at="2019-11-28T19:09:58Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel@7fb4f2a9]" started-at="2019-12-13T18:31:02Z" name="afterMethod" finished-at="2019-12-13T18:31:02Z" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Launch status=SUCCESS method=CreateBGGetawayPackage.Launch()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@71687585] output={null}]]]>
+                <![CDATA[[TestResult name=Launch status=SUCCESS method=CreateBGGetawayPackage_Hotel.Launch()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel@7fb4f2a9] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="SelectDestination()[pri:1, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@71687585]" started-at="2019-11-28T19:09:58Z" name="SelectDestination" finished-at="2019-11-28T19:10:06Z" duration-ms="7494" status="PASS">
+        <test-method signature="SelectDestination()[pri:1, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel@7fb4f2a9]" started-at="2019-12-13T18:31:02Z" name="SelectDestination" finished-at="2019-12-13T18:31:14Z" duration-ms="12605" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectDestination -->
-        <test-method signature="CheckAvailability()[pri:2, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@71687585]" started-at="2019-11-28T19:10:06Z" name="CheckAvailability" finished-at="2019-11-28T19:10:14Z" duration-ms="8256" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel@7fb4f2a9]" started-at="2019-12-13T18:31:14Z" name="afterMethod" finished-at="2019-12-13T18:31:14Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectDestination status=SUCCESS method=CreateBGGetawayPackage_Hotel.SelectDestination()[pri:1, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel@7fb4f2a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="CheckAvailability()[pri:2, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel@7fb4f2a9]" started-at="2019-12-13T18:31:14Z" name="CheckAvailability" finished-at="2019-12-13T18:31:33Z" duration-ms="19045" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckAvailability -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@71687585]" started-at="2019-11-28T19:10:06Z" name="afterMethod" finished-at="2019-11-28T19:10:06Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=SelectDestination status=SUCCESS method=CreateBGGetawayPackage.SelectDestination()[pri:1, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@71687585] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@71687585]" started-at="2019-11-28T19:10:14Z" name="afterMethod" finished-at="2019-11-28T19:10:14Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=CheckAvailability status=SUCCESS method=CreateBGGetawayPackage.CheckAvailability()[pri:2, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@71687585] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="ConfirmAvailability()[pri:3, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@71687585]" started-at="2019-11-28T19:10:14Z" name="ConfirmAvailability" finished-at="2019-11-28T19:10:19Z" duration-ms="4587" status="PASS">
+        <test-method signature="ConfirmAvailability()[pri:3, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel@7fb4f2a9]" started-at="2019-12-13T18:31:33Z" name="ConfirmAvailability" finished-at="2019-12-13T18:31:41Z" duration-ms="7786" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfirmAvailability -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@71687585]" started-at="2019-11-28T19:10:19Z" name="afterMethod" finished-at="2019-11-28T19:10:19Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel@7fb4f2a9]" started-at="2019-12-13T18:31:33Z" name="afterMethod" finished-at="2019-12-13T18:31:33Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ConfirmAvailability status=SUCCESS method=CreateBGGetawayPackage.ConfirmAvailability()[pri:3, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@71687585] output={null}]]]>
+                <![CDATA[[TestResult name=CheckAvailability status=SUCCESS method=CreateBGGetawayPackage_Hotel.CheckAvailability()[pri:2, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel@7fb4f2a9] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="EnterPersonalInformationnBookPackage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@71687585]" started-at="2019-11-28T19:10:19Z" name="EnterPersonalInformationnBookPackage" data-provider="test1Data" finished-at="2019-11-28T19:10:56Z" duration-ms="36922" status="FAIL">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel@7fb4f2a9]" started-at="2019-12-13T18:31:41Z" name="afterMethod" finished-at="2019-12-13T18:31:41Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ConfirmAvailability status=SUCCESS method=CreateBGGetawayPackage_Hotel.ConfirmAvailability()[pri:3, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel@7fb4f2a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="EnterPersonalInformationnBookPackage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel@7fb4f2a9]" started-at="2019-12-13T18:31:41Z" name="EnterPersonalInformationnBookPackage" data-provider="test1Data" finished-at="2019-12-13T18:32:16Z" duration-ms="34603" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -98,7 +94,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[8009010231]]>
+                <![CDATA[8119220231]]>
               </value>
             </param>
             <param index="4">
@@ -132,33 +128,386 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[label[text()='*Card Number:']]/input"}  (Session info: chrome=78.0.3904.108)  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'C4HSZY2', ip: '10.8.6.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\chandrra\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55122}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}Session ID: f239a57b136976457fa5339b72946987*** Element info: {Using=xpath, value=//div[label[text()='*Card Number:']]/input}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[label[text()='*Card Number:']]/input"}  (Session info: chrome=78.0.3904.108)  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'C4HSZY2', ip: '10.8.6.63', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\chandrra\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55122}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 78.0.3904.108, webStorageEnabled: true}Session ID: f239a57b136976457fa5339b72946987*** Element info: {Using=xpath, value=//div[label[text()='*Card Number:']]/input}at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)at org.openqa.selenium.By$ByXPath.findElement(By.java:361)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)at com.sun.proxy.$Proxy16.sendKeys(Unknown Source)at com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage.EnterPersonalInformationnBookPackage(CreateBGGetawayPackage.java:107)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:567)at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnterPersonalInformationnBookPackage -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@71687585]" started-at="2019-11-28T19:10:56Z" name="afterClass" finished-at="2019-11-28T19:10:56Z" duration-ms="174" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@71687585]" started-at="2019-11-28T19:10:56Z" name="afterMethod" finished-at="2019-11-28T19:10:56Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel@7fb4f2a9]" started-at="2019-12-13T18:32:16Z" name="afterMethod" finished-at="2019-12-13T18:32:16Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=EnterPersonalInformationnBookPackage status=FAILURE method=CreateBGGetawayPackage.EnterPersonalInformationnBookPackage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage@71687585] output={null}]]]>
+                <![CDATA[[TestResult name=EnterPersonalInformationnBookPackage status=SUCCESS method=CreateBGGetawayPackage_Hotel.EnterPersonalInformationnBookPackage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel@7fb4f2a9] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage -->
-    </test> <!-- BGG_Stage -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel@7fb4f2a9]" started-at="2019-12-13T18:32:16Z" name="afterClass" finished-at="2019-12-13T18:32:16Z" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Hotel -->
+    </test> <!-- CreateBGGetawayPackage_Hotel -->
+    <test started-at="2019-12-13T13:02:16Z" name="CreateBGGetawayPackage_Resort" finished-at="2019-12-13T13:03:30Z" duration-ms="73474">
+      <class name="com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort@45385f75]" started-at="2019-12-13T18:32:16Z" name="beforeTest" finished-at="2019-12-13T18:32:16Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort@45385f75]" started-at="2019-12-13T18:32:16Z" name="beforeClass" finished-at="2019-12-13T18:32:16Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="Launch()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort@45385f75]" started-at="2019-12-13T18:32:16Z" name="Launch" finished-at="2019-12-13T18:32:18Z" duration-ms="2137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort@45385f75]" started-at="2019-12-13T18:32:18Z" name="afterMethod" finished-at="2019-12-13T18:32:18Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Launch status=SUCCESS method=CreateBGGetawayPackage_Resort.Launch()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort@45385f75] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="SelectDestination()[pri:1, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort@45385f75]" started-at="2019-12-13T18:32:18Z" name="SelectDestination" finished-at="2019-12-13T18:32:26Z" duration-ms="7885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectDestination -->
+        <test-method signature="CheckAvailability()[pri:2, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort@45385f75]" started-at="2019-12-13T18:32:26Z" name="CheckAvailability" finished-at="2019-12-13T18:32:45Z" duration-ms="18763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckAvailability -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort@45385f75]" started-at="2019-12-13T18:32:26Z" name="afterMethod" finished-at="2019-12-13T18:32:26Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectDestination status=SUCCESS method=CreateBGGetawayPackage_Resort.SelectDestination()[pri:1, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort@45385f75] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort@45385f75]" started-at="2019-12-13T18:32:45Z" name="afterMethod" finished-at="2019-12-13T18:32:45Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckAvailability status=SUCCESS method=CreateBGGetawayPackage_Resort.CheckAvailability()[pri:2, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort@45385f75] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="ConfirmAvailability()[pri:3, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort@45385f75]" started-at="2019-12-13T18:32:45Z" name="ConfirmAvailability" finished-at="2019-12-13T18:32:50Z" duration-ms="4708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmAvailability -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort@45385f75]" started-at="2019-12-13T18:32:50Z" name="afterMethod" finished-at="2019-12-13T18:32:50Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ConfirmAvailability status=SUCCESS method=CreateBGGetawayPackage_Resort.ConfirmAvailability()[pri:3, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort@45385f75] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="EnterPersonalInformationnBookPackage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort@45385f75]" started-at="2019-12-13T18:32:50Z" name="EnterPersonalInformationnBookPackage" data-provider="test1Data" finished-at="2019-12-13T18:33:30Z" duration-ms="39914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ravi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Stg_06]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ravi.chandrika@bluegreenvacations.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8119220231]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NYC Street1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[NY]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10022]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[4111111111111111]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterPersonalInformationnBookPackage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort@45385f75]" started-at="2019-12-13T18:33:30Z" name="afterMethod" finished-at="2019-12-13T18:33:30Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EnterPersonalInformationnBookPackage status=SUCCESS method=CreateBGGetawayPackage_Resort.EnterPersonalInformationnBookPackage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort@45385f75] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort@45385f75]" started-at="2019-12-13T18:33:30Z" name="afterClass" finished-at="2019-12-13T18:33:30Z" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.cai.qa.bg.testScripts.BGG.CreateBGGetawayPackage_Resort -->
+    </test> <!-- CreateBGGetawayPackage_Resort -->
+    <test started-at="2019-12-13T13:03:30Z" name="VerifyHeaderLinks" finished-at="2019-12-13T13:03:38Z" duration-ms="8454">
+      <class name="com.cai.qa.bg.testScripts.BGG.VerifyHeaderLinks">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifyHeaderLinks@29f7cefd]" started-at="2019-12-13T18:33:30Z" name="beforeTest" finished-at="2019-12-13T18:33:30Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifyHeaderLinks@29f7cefd]" started-at="2019-12-13T18:33:30Z" name="beforeClass" finished-at="2019-12-13T18:33:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="Launch()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifyHeaderLinks@29f7cefd]" started-at="2019-12-13T18:33:30Z" name="Launch" finished-at="2019-12-13T18:33:32Z" duration-ms="2236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifyHeaderLinks@29f7cefd]" started-at="2019-12-13T18:33:32Z" name="afterMethod" finished-at="2019-12-13T18:33:32Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Launch status=SUCCESS method=VerifyHeaderLinks.Launch()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifyHeaderLinks@29f7cefd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="Verify_HeaderLinks()[pri:1, instance:com.cai.qa.bg.testScripts.BGG.VerifyHeaderLinks@29f7cefd]" started-at="2019-12-13T18:33:32Z" name="Verify_HeaderLinks" finished-at="2019-12-13T18:33:38Z" duration-ms="6176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_HeaderLinks -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifyHeaderLinks@29f7cefd]" started-at="2019-12-13T18:33:38Z" name="afterMethod" finished-at="2019-12-13T18:33:38Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_HeaderLinks status=SUCCESS method=VerifyHeaderLinks.Verify_HeaderLinks()[pri:1, instance:com.cai.qa.bg.testScripts.BGG.VerifyHeaderLinks@29f7cefd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifyHeaderLinks@29f7cefd]" started-at="2019-12-13T18:33:38Z" name="afterClass" finished-at="2019-12-13T18:33:38Z" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.cai.qa.bg.testScripts.BGG.VerifyHeaderLinks -->
+    </test> <!-- VerifyHeaderLinks -->
+    <test started-at="2019-12-13T13:03:38Z" name="VerifyFooterLinks" finished-at="2019-12-13T13:04:26Z" duration-ms="47958">
+      <class name="com.cai.qa.bg.testScripts.BGG.VerifyFooterLinks">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifyFooterLinks@2f67a4d3]" started-at="2019-12-13T18:33:38Z" name="beforeTest" finished-at="2019-12-13T18:33:38Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="Launch()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifyFooterLinks@2f67a4d3]" started-at="2019-12-13T18:33:38Z" name="Launch" finished-at="2019-12-13T18:33:40Z" duration-ms="1469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifyFooterLinks@2f67a4d3]" started-at="2019-12-13T18:33:38Z" name="beforeClass" finished-at="2019-12-13T18:33:38Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifyFooterLinks@2f67a4d3]" started-at="2019-12-13T18:33:40Z" name="afterMethod" finished-at="2019-12-13T18:33:40Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Launch status=SUCCESS method=VerifyFooterLinks.Launch()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifyFooterLinks@2f67a4d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyFooterLinks()[pri:1, instance:com.cai.qa.bg.testScripts.BGG.VerifyFooterLinks@2f67a4d3]" started-at="2019-12-13T18:33:40Z" name="verifyFooterLinks" finished-at="2019-12-13T18:34:26Z" duration-ms="46444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterLinks -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifyFooterLinks@2f67a4d3]" started-at="2019-12-13T18:34:26Z" name="afterMethod" finished-at="2019-12-13T18:34:26Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFooterLinks status=SUCCESS method=VerifyFooterLinks.verifyFooterLinks()[pri:1, instance:com.cai.qa.bg.testScripts.BGG.VerifyFooterLinks@2f67a4d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifyFooterLinks@2f67a4d3]" started-at="2019-12-13T18:34:26Z" name="afterClass" finished-at="2019-12-13T18:34:26Z" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.cai.qa.bg.testScripts.BGG.VerifyFooterLinks -->
+    </test> <!-- VerifyFooterLinks -->
+    <test started-at="2019-12-13T13:04:26Z" name="VerifySearchFunctionality" finished-at="2019-12-13T13:04:43Z" duration-ms="16524">
+      <class name="com.cai.qa.bg.testScripts.BGG.VerifySearchFunctionality">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifySearchFunctionality@642a7222]" started-at="2019-12-13T18:34:26Z" name="beforeTest" finished-at="2019-12-13T18:34:26Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="Launch()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifySearchFunctionality@642a7222]" started-at="2019-12-13T18:34:26Z" name="Launch" finished-at="2019-12-13T18:34:28Z" duration-ms="2080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifySearchFunctionality@642a7222]" started-at="2019-12-13T18:34:26Z" name="beforeClass" finished-at="2019-12-13T18:34:26Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifySearchFunctionality@642a7222]" started-at="2019-12-13T18:34:28Z" name="afterMethod" finished-at="2019-12-13T18:34:28Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Launch status=SUCCESS method=VerifySearchFunctionality.Launch()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifySearchFunctionality@642a7222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifySearch()[pri:1, instance:com.cai.qa.bg.testScripts.BGG.VerifySearchFunctionality@642a7222]" started-at="2019-12-13T18:34:28Z" name="verifySearch" finished-at="2019-12-13T18:34:43Z" duration-ms="14414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearch -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifySearchFunctionality@642a7222]" started-at="2019-12-13T18:34:43Z" name="afterClass" finished-at="2019-12-13T18:34:43Z" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifySearchFunctionality@642a7222]" started-at="2019-12-13T18:34:43Z" name="afterMethod" finished-at="2019-12-13T18:34:43Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearch status=SUCCESS method=VerifySearchFunctionality.verifySearch()[pri:1, instance:com.cai.qa.bg.testScripts.BGG.VerifySearchFunctionality@642a7222] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.cai.qa.bg.testScripts.BGG.VerifySearchFunctionality -->
+    </test> <!-- VerifySearchFunctionality -->
+    <test started-at="2019-12-13T13:04:43Z" name="VerifyYoutubeVideoAndTabsAssociated" finished-at="2019-12-13T13:05:37Z" duration-ms="54317">
+      <class name="com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated@15d49048]" started-at="2019-12-13T18:30:54Z" name="beforeSuite" finished-at="2019-12-13T18:30:55Z" duration-ms="1661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated@15d49048]" started-at="2019-12-13T18:34:43Z" name="beforeTest" finished-at="2019-12-13T18:34:43Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated@15d49048]" started-at="2019-12-13T18:34:43Z" name="beforeClass" finished-at="2019-12-13T18:34:43Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="Launch()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated@15d49048]" started-at="2019-12-13T18:34:43Z" name="Launch" finished-at="2019-12-13T18:34:47Z" duration-ms="3981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated@15d49048]" started-at="2019-12-13T18:34:47Z" name="afterMethod" finished-at="2019-12-13T18:34:47Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Launch status=SUCCESS method=VerifyYoutubeVideoAndTabsAssociated.Launch()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated@15d49048] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="SelectDestination()[pri:1, instance:com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated@15d49048]" started-at="2019-12-13T18:34:47Z" name="SelectDestination" finished-at="2019-12-13T18:35:05Z" duration-ms="18055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectDestination -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated@15d49048]" started-at="2019-12-13T18:35:05Z" name="afterMethod" finished-at="2019-12-13T18:35:05Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectDestination status=SUCCESS method=VerifyYoutubeVideoAndTabsAssociated.SelectDestination()[pri:1, instance:com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated@15d49048] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="CheckAvailability()[pri:2, instance:com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated@15d49048]" started-at="2019-12-13T18:35:05Z" name="CheckAvailability" finished-at="2019-12-13T18:35:15Z" duration-ms="10051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckAvailability -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated@15d49048]" started-at="2019-12-13T18:35:15Z" name="afterMethod" finished-at="2019-12-13T18:35:15Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckAvailability status=SUCCESS method=VerifyYoutubeVideoAndTabsAssociated.CheckAvailability()[pri:2, instance:com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated@15d49048] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="VerifyAccordianTabs()[pri:3, instance:com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated@15d49048]" started-at="2019-12-13T18:35:15Z" name="VerifyAccordianTabs" finished-at="2019-12-13T18:35:37Z" duration-ms="22197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAccordianTabs -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated@15d49048]" started-at="2019-12-13T18:35:37Z" name="afterMethod" finished-at="2019-12-13T18:35:37Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyAccordianTabs status=SUCCESS method=VerifyYoutubeVideoAndTabsAssociated.VerifyAccordianTabs()[pri:3, instance:com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated@15d49048] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated@15d49048]" started-at="2019-12-13T18:35:37Z" name="afterClass" finished-at="2019-12-13T18:35:37Z" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.cai.qa.bg.testScripts.BGG.VerifyYoutubeVideoAndTabsAssociated -->
+    </test> <!-- VerifyYoutubeVideoAndTabsAssociated -->
   </suite> <!-- Suite -->
 </testng-results>

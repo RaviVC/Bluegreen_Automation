@@ -1,6 +1,8 @@
-pipeline {
+pipeline 
+{
     agent any
-    stages {
+    stages 
+	{
         stage('validate') {
 	   steps {
                 echo 'validating..'
@@ -14,7 +16,8 @@ pipeline {
 		bat label: '', script: 'mvn compile'
            }
         }
-        stage('codereview-pmd') {
+        stage('codereview-pmd') 
+		{
 	   steps {
                 echo 'codereview..'
 		bat label: '', script: 'mvn -P metrics pmd:pmd'
@@ -32,6 +35,7 @@ pipeline {
            }		
         }
     }
+	
 }
 
 

@@ -31,6 +31,16 @@ pipeline {
 		bat label: '', script: 'mvn test'	
            }		
         }
+		stage('email-notification'){
+				echo 'sending email-notification ..'
+			}
+		post {
+			always {
+			mail to: 'ravi.chandrika@bluegreenvacations.com',
+			subject: "Status of pipeline: ${currentBuild.fullDisplayName}",
+			body: "${env.BUILD_URL} has result ${currentBuild.result}"
+			}
+		}
     }
 }
 
